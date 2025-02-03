@@ -1,0 +1,27 @@
+{
+  "name": "ai-ig-automation-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalpatel19197/AI-IG-Automation-Agent.git"
+  },
+  "author": "vishal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalpatel19197/AI-IG-Automation-Agent/issues"
+  },
+  "homepage": "https://github.com/vishalpatel19197/AI-IG-Automation-Agent#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "form-data": "^4.0.1",
+    "instagram-private-api": "^1.46.1",
+    "node-schedule": "^2.1.1"
+  }
+}
