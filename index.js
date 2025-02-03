@@ -72,7 +72,6 @@ async function fetchLatestVideos() {
     };
 
     const response = await axios.get(YOUTUBE_API_URL, { params });
-    console.log(JSON.stringify(response.data.items, null, 2));
     return response.data.items.map((item) => ({
       id: item.id.videoId,
       title: item.snippet.title,
