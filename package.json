@@ -22,6 +22,7 @@
     "dotenv": "^16.4.7",
     "form-data": "^4.0.1",
     "instagram-private-api": "^1.46.1",
-    "node-schedule": "^2.1.1"
+    "node-schedule": "^2.1.1",
+    "nodemon": "^3.1.9"
   }
 }
